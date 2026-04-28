@@ -30,6 +30,10 @@ document.querySelectorAll('.navbar-bootswatch').forEach(el => {
   el.style.backgroundColor = "#aacfe9";
 });
 
+document.querySelectorAll('.border').forEach(el => {
+  el.style.setProperty("border-color", "#6595c4", "important");
+});
+
 document.getElementById("page").style.backgroundImage = 'url("https://i.imgur.com/Wrpr9tb.jpeg")';
 document.getElementById("page").style.backgroundAttachment = 'fixed';
 document.getElementById("page").style.backgroundSize = 'cover';
