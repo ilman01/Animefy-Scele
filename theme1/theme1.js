@@ -32,6 +32,7 @@ document.querySelectorAll('.navbar-bootswatch').forEach(el => {
 
 document.getElementById("page").style.backgroundImage = 'url("https://i.imgur.com/Wrpr9tb.jpeg")';
 document.getElementById("page").style.backgroundAttachment = 'fixed';
+document.getElementById("page").style.backgroundSize = 'cover';
 
 document.getElementById("region-main").style.backgroundColor = 'rgb(164 210 236 / 60%)'
 
