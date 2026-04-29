@@ -47,6 +47,10 @@ style.innerHTML = `
   .list-group-item {
     background-color: rgb(98 191 244 / 36%) !important;
   }
+
+  .section li.activity.hasinfo {
+    border-bottom: 1px solid #6595c4 !important
+  }
 `;
 document.head.appendChild(style);
 
