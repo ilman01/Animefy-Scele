@@ -49,7 +49,11 @@ style.innerHTML = `
   }
 
   .section li.activity.hasinfo {
-    border-bottom: 1px solid #6595c4 !important
+    border-bottom: 1px solid #6595c441 !important
+  }
+
+  .course-content ul li.section.main {
+    border-bottom: 1px solid #6595c471 !important
   }
 `;
 document.head.appendChild(style);
